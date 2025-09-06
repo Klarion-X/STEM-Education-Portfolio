@@ -1,0 +1,37 @@
+STEM-Education-Portfolio/
+│
+├── README.md
+├── Project-1-Scratch-Solar-System/
+│   ├── solar_system.sb3
+│   ├── instructions.md
+│   └── screenshots/
+│       └── game-screenshot.png
+│
+├── Project-2-Python-Data-Visualization/
+│   ├── main.py
+│   ├── student_grades.csv
+│   ├── requirements.txt
+│   ├── grades_bar.png
+│   └── subject_pie.png
+│
+├── Project-3-Arduino-Plant-Monitor/
+│   ├── plant_monitor.ino
+│   ├── circuit_diagram.png
+│   ├── components_list.md
+│   └── assembly_instructions.md
+│
+├── Project-4-AI-Image-Classifier/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── model-info.md
+│
+├── Project-5-Drone-Simulation/
+│   ├── drone_simulation.py
+│   ├── flight_path.png
+│   └── mission_guide.md
+│
+└── Teaching-Resources/
+    ├── lesson-plan-template.md
+    ├── assessment-rubric.md
+    └── curriculum-alignment.md
