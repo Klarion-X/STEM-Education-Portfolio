@@ -1,0 +1,19 @@
+# Components List
+
+## Essential Components
+- Arduino Uno microcontroller
+- Soil moisture sensor
+- Red LED
+- Green LED
+- Blue LED
+- Buzzer module
+- Breadboard
+- Jumper wires
+- USB cable
+
+## Optional Components
+- LCD display
+- Resistors (220Ω)
+- Potentiometer for sensitivity adjustment
+
+## Estimated Cost: $25-40
