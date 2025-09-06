@@ -1,0 +1,49 @@
+# main.py
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Create sample data
+def create_sample_data():
+    data = {
+        'Student': [f'Student {i}' for i in range(1, 21)],
+        'Math': np.random.randint(60, 100, 20),
+        'Science': np.random.randint(65, 98, 20),
+        'English': np.random.randint(70, 95, 20)
+    }
+    df = pd.DataFrame(data)
+    df['Average'] = df[['Math', 'Science', 'English']].mean(axis=1)
+    return df
+
+# Visualization functions
+def create_bar_chart(df):
+    plt.figure(figsize=(10, 6))
+    plt.bar(df['Student'], df['Average'])
+    plt.title('Student Average Grades')
+    plt.xlabel('Students')
+    plt.ylabel('Average Score')
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig('grades_bar.png')
+    plt.show()
+
+def create_pie_chart(df):
+    subject_means = df[['Math', 'Science', 'English']].mean()
+    plt.figure(figsize=(8, 8))
+    plt.pie(subject_means, labels=subject_means.index, autopct='%1.1f%%')
+    plt.title('Average Scores by Subject')
+    plt.savefig('subject_pie.png')
+    plt.show()
+
+# Main execution
+if __name__ == "__main__":
+    df = create_sample_data()
+    print("Student Data:")
+    print(df.head())
+    
+    create_bar_chart(df)
+    create_pie_chart(df)
+    
+    # Save to CSV
+    df.to_csv('student_grades.csv', index=False)
+    print("Data saved to student_grades.csv")
