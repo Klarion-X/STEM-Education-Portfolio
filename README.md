@@ -53,10 +53,4 @@ Visit the [Teaching Resources](./Teaching-Resources/) folder for:
 - Curriculum alignment guides
 - Differentiation strategies
 
-## 📞 Contact
 
-**Gloria Nyongesa**  
-STEM Educator & Technology Instructor  
-📧 mariegloria941@gmail.com  
-📱 +254 745 845455  
-🔗 [LinkedIn](https://linkedin.com/in/gloria-marie-nyongesa)
